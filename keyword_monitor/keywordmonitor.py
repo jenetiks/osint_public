@@ -149,7 +149,7 @@ def check_pastebin(keywords):
     
     # poll the Pastebin API
     try:
-        response = requests.get("http://pastebin.com/api_scraping.php?limit=500")
+        response = requests.get("http://scrape.pastebin.com/api_scraping.php")
     except:
         return paste_hits
     
